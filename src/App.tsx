@@ -118,7 +118,7 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <div className="bg-[#ffb8bd]">
+      <div id="descarga" className="bg-[#ffb8bd]">
       <header className="pt-32 pb-12 px-6 flex flex-col items-center justify-center text-center">
         <div className="inline-block bg-coco-blushLight px-4 py-1.5 rounded-full text-coco-coralStrong font-bold text-sm mb-6 border border-coco-blush">
           Diseñado para Artistas y Emprendedores
@@ -132,9 +132,14 @@ export default function App() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md justify-center">
-          <button className="flex-1 bg-coco-coralStrong text-white px-8 py-3.5 rounded-full font-bold shadow-lg shadow-coco-coralStrong/30 hover:bg-coco-coral transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
+          <a
+            href="https://github.com/FranRabanalB/Coco-Eventos-FreeVersion/releases/latest/download/application-4f039621-4e45-4e95-92d5-3f3879d6532e.apk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 bg-coco-coralStrong text-white px-8 py-3.5 rounded-full font-bold shadow-lg shadow-coco-coralStrong/30 hover:bg-coco-coral transition transform hover:-translate-y-1 flex items-center justify-center gap-2"
+          >
             Descargar Android
-          </button>
+          </a>
           <a href="#ios-info" className="flex-1 bg-gray-100 text-coco-textMuted border-2 border-dashed border-gray-200 px-8 py-3.5 rounded-full font-bold hover:bg-gray-200 transition flex items-center justify-center gap-2">
             iOS (Pronto)
           </a>

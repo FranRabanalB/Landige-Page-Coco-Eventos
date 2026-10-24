@@ -25,10 +25,7 @@ export default function IosInfo() {
               <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-coco-coralStrong" />
               <span><strong>No hay distribución libre:</strong> A diferencia de Android, Apple te obliga a publicar en la App Store y pasar por una revisión estricta.</span>
             </li>
-            <li className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-2">
-              <span aria-hidden="true" className="mt-2 h-2 w-2 shrink-0 rounded-full bg-coco-coralStrong" />
-              <span><strong>"TestFlight" es tedioso:</strong> Invitar probadores beta obligaría a tus clientes a instalar apps adicionales.</span>
-            </li>
+           
           </ul>
           <div className="bg-coco-blushLight/50 p-3 rounded-xl border border-coco-blushLight transition-colors duration-300 hover:bg-coco-blushLight">
             <p className="text-sm font-bold text-coco-text">
