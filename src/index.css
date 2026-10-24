@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+/* Importamos la fuente Nunito directamente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Hacemos que Nunito sea la fuente por defecto de la clase font-sans */
+  --font-sans: 'Nunito', sans-serif;
+
+  /* Tu nueva paleta pastel exacta (Extraída de tu imagen de referencia) */
+  --color-coco-blushLight: #FCE4E4; /* Rosa Nube Suave */
+  --color-coco-blush: #F8CECE;      /* Rosa Nube Fuerte */
+  
+  --color-coco-roseLight: #F6B3BE;  /* Rosa Pastel Suave */
+  --color-coco-rose: #F39FB0;       /* Rosa Pastel Fuerte */
+  
+  --color-coco-coral: #F1888B;        /* Coral Rosado Suave */
+  --color-coco-coralStrong: #EE7779;  /* Coral Rosado Fuerte (Botones Principales) */
+  
+  --color-coco-peachLight: #F8B293; /* Durazno Suave (Alertas) */
+  --color-coco-peach: #F59D78;      /* Durazno Fuerte */
+  
+  --color-coco-terracotta: #EAA99A;       /* Terracota Suave */
+  --color-coco-terracottaStrong: #E39583; /* Terracota Fuerte */
+
+  /* Neutros y Fondos armonizados para los pasteles */
+  --color-coco-bg: #FDFBF9;       /* Crema cálido (Fondo de la página) */
+  --color-coco-text: #3D2C2E;     /* Café/Ciruela oscuro (Reemplaza al negro puro para suavizar) */
+  --color-coco-textSec: #8C7A7B;  /* Gris rosado cálido (Para subtítulos) */
+  --color-coco-border: #F5EBEB;   /* Bordes muy suaves */
+  --color-coco-success: #68B984;  /* Verde pastel para los checks */
+}
+
