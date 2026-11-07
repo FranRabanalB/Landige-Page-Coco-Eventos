@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 
 export default function DownloadButton() {
-  const [downloadUrl, setDownloadUrl] = useState('https://github.com/FranRabanalB/Coco-Eventos-FreeVersion/releases/latest');
+  const [downloadUrl, setDownloadUrl] = useState('https://mel00ndev.itch.io/coco-eventos-free-version');
   const [isLoadingLink, setIsLoadingLink] = useState(true);
 
   useEffect(() => {
     async function fetchLatestRelease() {
       try {
-        const response = await fetch('https://api.github.com/repos/FranRabanalB/Coco-Eventos-FreeVersion/releases/latest');
+        const response = await fetch('https://mel00ndev.itch.io/coco-eventos-free-version');
         if (response.ok) {
           const data = await response.json();
           const apkAsset = data.assets.find((asset: any) => asset.name.endsWith('.apk'));
