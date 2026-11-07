@@ -20,7 +20,7 @@ export default function SuggestionForm() {
     <form className="space-y-4" onSubmit={handleSubmit}>
       <div>
         <label className="block text-sm font-bold text-coco-textSec mb-1">
-          Tu nombre o arroba
+          Tu nombre o arroba en redes
         </label>
         <input
           type="text"

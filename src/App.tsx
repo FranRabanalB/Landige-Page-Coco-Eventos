@@ -4,6 +4,7 @@ import Pricing from './components/Pricing';
 import cocoLogo from './assets/coco_Logo horizontal.png';
 import monkiImage from './assets/monki_2.png';
 import SuggestionForm from './components/SuggestionForm';
+import DownloadButton from './components/DownloadButton';
 // Iconos SVG Minimalistas (Estilo Flaticon/Lineal)
 const Icons = {
   Home: () => (
@@ -131,15 +132,9 @@ export default function App() {
           Es una aplicacion actualmente en android para gestionar mejor el inventario y ventas en espacios principalmente en eventos  actualmente la sigo desarrollando y por esto esta demo gratis  me gustaria que la usaran y si es posible darme idea o alguna ayuda para seguir con este proyecto. 
         </p>
         
+      
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md justify-center">
-          <a
-            href="https://github.com/FranRabanalB/Coco-Eventos-FreeVersion/releases/latest/download/application-4f039621-4e45-4e95-92d5-3f3879d6532e.apk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 bg-coco-coralStrong text-white px-8 py-3.5 rounded-full font-bold shadow-lg shadow-coco-coralStrong/30 hover:bg-coco-coral transition transform hover:-translate-y-1 flex items-center justify-center gap-2"
-          >
-            Descargar Android
-          </a>
+          <DownloadButton />
           <a href="#ios-info" className="flex-1 bg-gray-100 text-coco-textMuted border-2 border-dashed border-gray-200 px-8 py-3.5 rounded-full font-bold hover:bg-gray-200 transition flex items-center justify-center gap-2">
             iOS (Pronto)
           </a>
@@ -319,7 +314,7 @@ export default function App() {
             <div>
   <h3 className="text-2xl font-bold text-coco-text mb-4">¿Tienes una idea?</h3>
   <p className="text-coco-textSec mb-6">
-    COCO Eventos crece gracias a la comunidad. Si te gustaría ver una nueva función, cuéntanos.
+    COCO Eventos crece gracias a ustedes. Si te gustaría ver una función específica o tienes sugerencias para mejorar la app. Me encantaría escucharlas. ¡Tu opinión es muy valiosa!
   </p>
   <SuggestionForm />
 </div>

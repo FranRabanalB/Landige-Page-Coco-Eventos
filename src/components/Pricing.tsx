@@ -4,7 +4,7 @@ export default function Pricing() {
     <section id="comparativa" className="py-20 px-6 max-w-5xl mx-auto">
       <div className="text-center transform transition-all duration-700 hover:scale-105">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-coco-text">
-          Actualmente es una version Demo
+          Actualmente esta disponible la version Demo
         </h2>
         <p className="text-white mb-12 max-w-2xl mx-auto">
           Pero la idea es ir agregando mas funciones y mejoras , para terminar siendo algo como esto
@@ -74,7 +74,7 @@ export default function Pricing() {
                 Gestión de Eventos
               </td>
               <td className="p-6 text-center text-coco-textSec">
-                1 evento activo <br/><span className="text-xs">(borrar para crear)</span>
+                1 evento activo <br/><span className="text-xs">(evento actual)</span>
               </td>
               <td className="p-6 text-center font-bold text-coco-coralStrong bg-coco-blushLight/10 transition-colors duration-300 hover:bg-coco-blushLight/30">
                 Historial Ilimitado
